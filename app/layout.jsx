@@ -11,8 +11,8 @@ export const metadata = {
 
 const RootLayout = ({ children }) => {
   return (
-    <Suspense>
     <html lang="en">
+      <Suspense>
       <Provider>
         <body>
           <div className="main">
@@ -25,8 +25,8 @@ const RootLayout = ({ children }) => {
           </main>
         </body>
       </Provider>
-    </html>
     </Suspense>
+    </html>
   );
 }
 
